@@ -1,8 +1,8 @@
-import fs from 'fs'
-import Koa from 'koa'
-import Router from 'koa-router'
-import bodyparser from 'koa-bodyparser'
-import serve from 'koa-static'
+import * as fs from 'fs'
+import * as Koa from 'koa'
+import * as Router from 'koa-router'
+import * as bodyparser from 'koa-bodyparser'
+import * as serve from 'koa-static'
 import { createPool, sql } from 'slonik'
 
 const app = new Koa()
