@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
-    "jsx": "react"
-  },
-  "complierOptions": {
     "noPropertyAccessFromIndexSignature": true,
     "strict": true,
     "alwaysStrict": true,
@@ -11,6 +8,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "esModuleInterop": true,
+    "module": "commonjs",
     "jsx": "react"
   }
 }

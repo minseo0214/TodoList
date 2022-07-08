@@ -1,0 +1,52 @@
+.container {
+  background-color: bisque;
+  flex: 1;
+  flex-grow: 1;
+  min-height: 100vh;
+}
+
+.title {
+  align-content: center;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
+.inputBox {
+  justify-content: center;
+  background-color: white;
+  overflow: auto;
+  height: 30px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.todoList {
+  height: 100vh;
+  background-color: whitesmoke;
+  flex: 1;
+  flex-direction: column;
+}
+
+.todoBox {
+  flex: 1;
+  flex-direction: row;
+  background-color: beige;
+  height: 70px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.doneBox {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  display: flex;
+}
+
+.textBox {
+  color: black;
+  text-align: center;
+  align-content: center;
+}
