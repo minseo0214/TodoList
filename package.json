@@ -1,0 +1,32 @@
+{
+  "name": "todo_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "minseo0214 <minseo>",
+  "license": "MIT",
+  "scripts": {
+    "watch:server": "esbuild --bundle src/server/index.tsx --outfile=build/server.js --platform=node --external:pg-native --watch",
+    "watch:client": "esbuild --bundle src/client/index.tsx --outfile=build/client.js --watch",
+    "server": "nodemon build/server.js"
+  },
+  "dependencies": {
+    "@types/koa-bodyparser": "^4.3.7",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-static": "^4.0.2",
+    "@types/react-dom": "^18.0.6",
+    "esbuild": "^0.14.48",
+    "fs": "^0.0.1-security",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^11.0.1",
+    "koa-static": "^5.0.0",
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "slonik": "^28.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3"
+  }
+}
